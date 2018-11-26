@@ -9,7 +9,7 @@
     function Test1(name) {
             this.name = name
         }
-    Test.prototype.aaa = function() {
+    Test1.prototype.aaa = function() {
         alert(this.name)
     }
     res1 = new Test1(111)
