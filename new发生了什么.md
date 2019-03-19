@@ -29,7 +29,8 @@
 ```
 
     -   所有函数都自带一个属性是prototype（原型）它是一个对象类型
-    -   原型中自带一个属性constructor（构造函数）指向期构造函数(类) 是当前函数自己(普通函数就是函数自己)
+    -   原型中自带一个属性constructor（构造函数）指向其构造函数(类) 是当前函数自己(普通函数就是函数自己)
+        var a = {} a.constructor === Object   实例的constructor 指向其构造函数// true
     -   __proto__当前所属类的对象原型(就是期构造函数的prototype)
     -           
 
